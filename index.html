@@ -28,19 +28,19 @@
 
 <body>
     <!--navbar start-->
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top menu-top transparency">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">James</a>
+                <a class="navbar-brand section-title title-color" href="#">James</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#">WELCOME</a></li>
-                    <li><a href="#">ABOUT ME</a></li>
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a href="#">WORK</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#about-me-section">ABOUT ME</a></li>
+                    <li><a href="#knowledge-section">SERVICES</a></li>
+                    <li><a href="#experience-section">WORK</a></li>
+                    <li><a href="#my-blog-section">BLOG</a></li>
+                    <li><a href="#contact-section">CONTACT</a></li>
                 </ul>
             </div>
         </div>
@@ -48,55 +48,71 @@
     <!--navbar end-->
 
     <!--banner Section Start-->
-    <div id="banner-section" class="banner-section bg-color-banner section-pd120">
+    <div id="banner-section" class="banner-section bannerbg">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="title-color">Hi, my name is <br><b>JAMES FAULKNER </b><br></h3>
-                    <h4 class="subtitle-color">UI/UX Designer</h4>
+                    <div class="bannercontent">
+                        <span class="title-color banner-sub-title">Hi, my name is</span> <br>
+                        <h2 class="title-color banner-title">JAMES FAULKNER</h2><br>
+                        <span class="subtitle-color banner-sub-title">UI/UX Designer</span>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
     <!--banner Section Finish-->
 
+
+
     <!--about-me-section start-->
     <div id="about-me-section" class="about-me-section bg-color-white section-pd120">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 text-left">
+                <div class="col-md-5">
+
+                    <img src="images/man.png" class="img-responsive imgtranslate" alt="profile">
+
+
                 </div>
                 <!--about me start-->
-                <div class="col-md-8 text-right">
-                    <h3>ABOUT ME</h3>
-                    <h4 class="title-color">Hello! I'm JAMES FRANCO. Senior UI/UX designer Lorem lipsum dolor sit amet, his at laudem facilis, sed dolore esset quaeque at. Facete euismod inciderint usu in.</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis quasi maxime repudiandae corporis non autem laboriosam similique. Id doloribus placeat impedit architecto error nulla voluptatibus, mollitia nostrum velit sapiente
+                <div class="col-md-7 text-right">
+                    <h3 class="section-title pdbtm60">ABOUT ME</h3>
+                    <h4 class="title-color section-description">Hello! I'm JAMES FRANCO. Senior UI/UX designer Lorem lipsum dolor sit amet, his at laudem facilis, sed dolore esset quaeque at. Facete euismod inciderint usu in.</h4>
+                    <p class="pad30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis quasi maxime repudiandae corporis non autem laboriosam similique. Id doloribus placeat impedit architecto error nulla voluptatibus, mollitia nostrum velit sapiente
                         aliquid ex libero sequi assumenda cum modi officiis quod tempora unde facere. Sunt necessitatibus odit quas, tenetur nostrum tempore architecto! Blanditiis?</p>
-                    <div class="table-responsive">
-                        <table class="table right">
-                            <tr>
-                                <td>Full Name:</td>
-                                <td>James Franco</td>
-                            </tr>
-                            <tr>
-                                <td>Age:</td>
-                                <td>30</td>
-                            </tr>
-                            <tr>
-                                <td>Addess:</td>
-                                <td>Savr, Dhaka</td>
-                            </tr>
-                            <tr>
-                                <td>E-mail:</td>
-                                <td>robin@gmail.com</td>
-                            </tr>
-                            <tr>
-                                <td>Phone:</td>
-                                <td>123456</td>
-                            </tr>
-                        </table>
+                    <div class="row">
+                        <div class="col-md-4">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="table-responsive">
+                                <table class="table right">
+                                    <tr>
+                                        <td>Full Name:</td>
+                                        <td>James Franco</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Age:</td>
+                                        <td>30</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Addess:</td>
+                                        <td>Savr, Dhaka</td>
+                                    </tr>
+                                    <tr>
+                                        <td>E-mail:</td>
+                                        <td>robin@gmail.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Phone:</td>
+                                        <td>123456</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <a href="#" class="btn btn-primary btnstyle">Download Resume</a>
+                        </div>
                     </div>
-                    <a href="#" class="btn btn-primary">Download Resume</a>
                 </div>
             </div>
             <!--about me finish-->
@@ -110,39 +126,54 @@
             <div class="row ">
                 <!--knowledge div start-->
                 <div class="col-md-12">
-                    <h3 class="subtitle-color">KNOWLEDGE</h3>
+                    <h3 class="subtitle-color section-title pdbtm60">KNOWLEDGE</h3>
                 </div>
             </div>
-            <div class="row">
+            <div class="row pdbtm40">
                 <div class="col-md-4">
-                    <i class="fa fa-laptop"></i>
-                    <h4 class="title-color">Web Development</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, accusantium!</p>
+                    <div class="icon-display">
+                        <i class="fa fa-laptop menubar title-color"></i>
+                    </div>
+                    <h4 class="title-color submenu">Web Development</h4>
+
+                    <p class="pdtop15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, accusantium!</p>
                 </div>
                 <div class="col-md-4">
-                    <i class="fa fa-camera"></i>
-                    <h4 class="title-color">Photography</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, consequatur.</p>
+                    <div class="icon-display">
+                        <i class="fa fa-camera menubar title-color"></i>
+                    </div>
+                    <h4 class="title-color submenu">Photography</h4>
+                    <p class="pdtop15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, consequatur.</p>
                 </div>
                 <div class="col-md-4">
-                    <i class="fa fa-home"></i>
-                    <h4 class="title-color">UI/UX Design</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, fugiat!</p>
+                    <div class="icon-display">
+                        <i class="fa fa-home menubar title-color"></i>
+                    </div>
+                    <h4 class="title-color submenu">UI/UX Design</h4>
+                    <p class="pdtop15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, fugiat!</p>
+                </div>
+            </div>
+            <div class="row pdbtm40">
+                <div class="col-md-4">
+                    <div class="icon-display">
+                        <i class="fa fa-wordpress menubar title-color"></i>
+                    </div>
+                    <h4 class="title-color submenu">WordPress</h4>
+                    <p class="pdtop15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, quae?</p>
                 </div>
                 <div class="col-md-4">
-                    <i class="fa fa-wordpress"></i>
-                    <h4 class="title-color">WordPress</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, quae?</p>
+                    <div class="icon-display">
+                        <i class="fa fa-video-camera menubar title-color"></i>
+                    </div>
+                    <h4 class="title-color submenu">Video Editing</h4>
+                    <p class="pdtop15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, nisi.</p>
                 </div>
                 <div class="col-md-4">
-                    <i class="fa fa-video-camera"></i>
-                    <h4 class="title-color">Video Editing</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, nisi.</p>
-                </div>
-                <div class="col-md-4">
-                    <i class="fa fa-users"></i>
-                    <h4 class="title-color">SEO Marketing</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, nostrum!</p>
+                    <div class="icon-display">
+                        <i class="fa fa-users menubar title-color"></i>
+                    </div>
+                    <h4 class="title-color submenu">SEO Marketing</h4>
+                    <p class="pdtop15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, nostrum!</p>
                 </div>
 
             </div>
@@ -156,29 +187,48 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 style="font-size:25px" class="subtitle-color">MY SKILLS</h3>
+                    <h3 style="font-size:25px" class="subtitle-color sub-section-title pdbtm30">MY SKILLS</h3>
                 </div>
             </div>
+
             <div class="row">
                 <div class="col-md-6">
                     <h4 class="subtitle-color">ADOBE PHOTOSHOP 90%</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, accusantium!</p>
+                    <div class="progress">
+                        <div class="progress-bar pgcolor" style="width: 90%;">
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-6">
                     <h4 class="subtitle-color">ADOBE INDESIGN 70%</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, consequatur.</p>
+                    <div class="progress">
+                        <div class="progress-bar pgcolor" style="width: 70%;">
+
+                        </div>
+                    </div>
                 </div>
+            </div>
+            <div class="row pdtop30">
                 <div class="col-md-6">
                     <h4 class="subtitle-color">ADOBE ILLUSTREATOR 90%</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, fugiat!</p>
+                    <div class="progress">
+                        <div class="progress-bar pgcolor" style="width: 90%;">
+
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-6">
                     <h4 class="subtitle-color">WordPress 55%</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, quae?</p>
+                    <div class="progress">
+                        <div class="progress-bar pgcolor" style="width: 55%;">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <!--My Skill div Finish-->
+
+
     </div>
     <!--my-skill-section finish-->
 
@@ -188,13 +238,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-right">
-                    <h3 class="text-color-black">EXPERIENCE</h3>
+                    <h3 class="text-color-black section-title">EXPERIENCE</h3>
                     <h4 class="title-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, corporis.</h4>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <h5 class="title-color">2017-2016</h5>
+                    <h5 class="title-color exbox sub-section-title">2017-2016</h5>
                 </div>
                 <div class="col-md-9 text-left">
                     <h5 class="text-color-black">Ghraphicriver</h5>
@@ -209,12 +259,12 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, fugiat!</p>
                 </div>
                 <div class="col-md-3">
-                    <h5 class="title-color">2016-2015</h5>
+                    <h5 class="subtitle-color exbox1 sub-section-title">2016-2015</h5>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <h5 class="title-color">2015-2014</h5>
+                    <h5 class="title-color exbox sub-section-title">2015-2014</h5>
                 </div>
                 <div class="col-md-9 text-left">
                     <h5 class="text-color-black">Shutterstock</h5>
@@ -229,7 +279,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, nisi.</p>
                 </div>
                 <div class="col-md-3">
-                    <h5 class="title-color">2014-2010</h5>
+                    <h5 class="title-color exbox sub-section-title">2014-2010</h5>
                 </div>
             </div>
         </div>
@@ -241,27 +291,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-left">
-                    <h3>PORTFOLIO</h3>
+                    <h3 class="subtitle-color section-title">PORTFOLIO</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
-                    <img src="images/facebook.png" class="img-responsive" alt=" ">
+                <div class="col-md-4 pad20">
+                    <img src="images/portfolio1.jpg" class="img-responsive" alt=" ">
                 </div>
-                <div class="col-md-4">
-                    <img src="images/facebook.png" class="img-responsive" alt=" ">
+                <div class="col-md-4 pad20">
+                    <img src="images/portfolio2.jpg" class="img-responsive" alt=" ">
                 </div>
-                <div class="col-md-4">
-                    <img src="images/facebook.png" class="img-responsive" alt=" ">
+                <div class="col-md-4 pad20">
+                    <img src="images/portfolio3.jpg" class="img-responsive" alt=" ">
                 </div>
-                <div class="col-md-4">
-                    <img src="images/facebook.png" class="img-responsive" alt=" ">
+                <div class="col-md-4 pad20">
+                    <img src="images/portfolio4.jpg" class="img-responsive" alt=" ">
                 </div>
-                <div class="col-md-4">
-                    <img src="images/facebook.png" class="img-responsive" alt=" ">
-                </div>
-                <div class="col-md-4">
-                    <img src="images/facebook.png" class="img-responsive" alt=" ">
+                <div class="col-md-4 pad20">
+                    <img src="images/portfolio5.jpg" class="img-responsive" alt=" ">
                 </div>
             </div>
         </div>
@@ -270,11 +317,11 @@
 
 
     <!--references section start-->
-    <div id="reference-section" class="reference-section bg-color-banner section-pd120">
+    <div id="reference-section" class="reference-section bg-color-banner section-pd120 referencebg">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-right">
-                    <h3 class="subtitle-color">REFERENCES</h3>
+                    <h3 class="subtitle-color section-title">REFERENCES</h3>
                 </div>
             </div>
             <div class="row">
@@ -311,7 +358,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-left">
-                    <h3>MY BLOG</h3>
+                    <h3 class="text-color-black section-title">MY BLOG</h3>
                 </div>
             </div>
             <div class="row">
@@ -339,11 +386,11 @@
     <!--my-blog section finish-->
 
     <!--contact section start-->
-    <div id="contact-section" class="contact-section bg-color-banner pdtop120">
+    <div id="contact-section" class="contact-section bg-color-banner pdtop120 contactbg">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-right">
-                    <h3 class="subtitle-color">CONTACT</h3>
+                    <h3 class="subtitle-color section-title">CONTACT</h3>
                 </div>
             </div>
             <div class="row">
