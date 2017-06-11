@@ -144,6 +144,14 @@
     background-color: #FF8A00;
 }
 
+.progress {
+    background-color: #5E5858;
+}
+
+.radborder {
+    border-radius: 0;
+}
+
 .banner-title {
     font-family: Roboto;
     font-size: 40px;
@@ -189,13 +197,17 @@
     border-radius: 25px;
     background-color: #FF8A00;
     border: none;
-    font-weight: 500;
 }
 
 .submenu {
     font-size: 20px;
+    font-weight: 600;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.designation {
+    font-size: 16px;
 }
 
 
@@ -221,6 +233,29 @@
     height: 120px;
     border-style: solid;
     padding: 46px 55px;
+}
+
+h4,
+h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.marginless {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.imgsize {
+    width: 100vh;
+    height: 250px;
+}
+
+.imgsizelg {
+    width: 100vh;
+    height: 395px;
 }
 
 
