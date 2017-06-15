@@ -51,8 +51,16 @@
     padding-bottom: 30px;
 }
 
+.pdbtm20 {
+    padding-bottom: 20px;
+}
+
 .pdbtm120 {
     padding-bottom: 120px;
+}
+
+p {
+    margin: 0;
 }
 
 .pdbtm60 {
@@ -61,6 +69,15 @@
 
 .pdbtm40 {
     padding-bottom: 40px;
+}
+
+.iconborder {
+    border: 2px;
+}
+
+.pdtpbtm {
+    padding-top: 8px;
+    padding-bottom: 15px;
 }
 
 .bannerbg {
@@ -131,6 +148,12 @@
 
 .icon-margin {
     margin-right: 15px;
+}
+
+.fontchng {
+    font-family: Pacifico;
+    font-style: italic;
+    font-size: 25px;
 }
 
 .section-title {
@@ -235,10 +258,21 @@
     padding: 46px 55px;
 }
 
+h1,
+h2,
+h3,
 h4,
-h5 {
+h5,
+h6 {
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.blgpic {
+    height: 150px;
+    width: 100px;
 }
 
 .marginless {
@@ -256,6 +290,15 @@ h5 {
 .imgsizelg {
     width: 100vh;
     height: 395px;
+}
+
+.blogbox {
+    -webkit-box-shadow: 8px 2px 42px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 8px 2px 42px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 8px 2px 42px -7px rgba(0, 0, 0, 0.75);
+    padding: 15px;
+    transform: translateX(-50px);
+    transform: translateY(120px);
 }
 
 
