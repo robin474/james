@@ -88,6 +88,11 @@ p {
     background-size: cover;
 }
 
+.pd20 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
 .bannercontent {
     height: 100vh;
     display: -webkit-box;
@@ -139,6 +144,12 @@ p {
 
 .pdtop15 {
     padding-top: 15px;
+}
+
+.blog-img {
+    -webkit-box-shadow: -1px 0px 0px 4px rgba(241, 241, 241, 1);
+    -moz-box-shadow: -1px 0px 0px 4px rgba(241, 241, 241, 1);
+    box-shadow: -0.01em 0px 0px 2px rgba(241, 241, 241, 1);
 }
 
 .icon-display {
@@ -216,10 +227,74 @@ p {
     border: none;
 }
 
+#owl-demo .item {
+    margin: 3px;
+}
+
+#owl-demo .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.transparence {
+    background: transparent;
+    /*border-bottom: 1px;*/
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-radius: 0px;
+}
+
+.social-list {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin-right: 15px;
+    /*float: left;*/
+}
+
+.blog-descrptn {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin: 15px;
+}
+
+.caption {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.social-list-icon {
+    color: #000;
+    background: #ddd;
+    width: 42px;
+    height: 42px;
+    font-size: 32px;
+    line-height: 42px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    position: center;
+}
+
 .btnstyle {
     border-radius: 25px;
     background-color: #FF8A00;
     border: none;
+    padding: 12px;
+    font-weight: 550;
+}
+
+.submit-btn {
+    /*border-radius: 25px;*/
+    background-color: #FF8A00;
+    border: none;
+    padding: 12px;
+    font-weight: 550;
 }
 
 .submenu {
